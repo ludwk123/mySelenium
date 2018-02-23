@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My Application Test Automation Test Suite">
+
+
+    <test name="My Automation Test Cases">
+        <classes>
+            <!--<class name="com.lrb.qa.testcases.testXYZ"></class>-->
+
+        </classes>
+    </test>
+</suite>
