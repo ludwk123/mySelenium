@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 import static org.testng.Assert.*;
 
-public class CalendarPageTest {
+public class LoginPageTest {
 
     @BeforeMethod
     public void setUp() throws Exception {
@@ -17,7 +17,6 @@ public class CalendarPageTest {
     }
 
     @Test
-    public void testCalendarPage() throws Exception {
+    public void testLoginPage() throws Exception {
     }
-
 }
