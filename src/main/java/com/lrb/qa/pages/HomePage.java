@@ -4,6 +4,6 @@ import com.lrb.qa.base.TestBase;
 
 public class HomePage extends TestBase {
 
-    public void test(){ System.out.println("HomePage"); }
+    public void HomePage(){ System.out.println("HomePage"); }
 
 }

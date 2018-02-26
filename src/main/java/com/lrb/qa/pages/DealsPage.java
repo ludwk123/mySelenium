@@ -4,6 +4,6 @@ import com.lrb.qa.base.TestBase;
 
 public class DealsPage extends TestBase {
 
-    public void test(){ System.out.println("DealsPage"); }
+    public void DealsPage(){ System.out.println("DealsPage"); }
 
 }
