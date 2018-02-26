@@ -19,5 +19,9 @@ public class CalendarPageTest {
     @Test
     public void testCalendarPage() throws Exception {
     }
+    
+    @Test
+    public void testMonthCalendarPage() throws Exception {
+    }
 
 }
