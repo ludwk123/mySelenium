@@ -13,12 +13,12 @@ public class ContactsPageTest {
 
     @BeforeMethod
     public void setUp() throws Exception {
-        log.info("****************************** Starting test cases execution  *****************************************");
+        log.info("*** Starting test cases execution ***");
     }
 
     @AfterMethod
     public void tearDown() throws Exception {
-        log.info("****************************** Ending test cases execution  *******************************************");
+        log.info("*** Ending test cases execution ***");
     }
 
     @Test

@@ -4,9 +4,8 @@
 
 
     <test name="My Automation Test Cases">
-        <classes>
-            <!--<class name="com.lrb.qa.testcases.testXYZ"></class>-->
-
-        </classes>
+        <packages>
+            <package name="com.lrb.qa.testcases.*" />
+        </packages>
     </test>
 </suite>
