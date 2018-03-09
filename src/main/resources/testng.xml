@@ -2,6 +2,10 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="My Application Test Automation Test Suite">
 
+    <listeners>
+        <listener class-name="com.lrb.qa.ExtentReportListener.ExtentReporterNG" />
+    </listeners>
+
 
     <test name="My Automation Test Cases">
         <packages>
