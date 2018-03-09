@@ -1,6 +1,7 @@
 package com.lrb.qa.testcases;
 
 import org.apache.log4j.Logger;
+import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -24,5 +25,11 @@ public class TasksPageTest {
     @Test
     public void testTasksPage() throws Exception {
         log.info("In testTasksPage method");
+    }
+
+    @Test
+    public void testTasksPageFail() throws Exception {
+        log.info("In testTasksPageFail method");
+        Assert.fail();
     }
 }
