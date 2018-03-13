@@ -1,0 +1,38 @@
+url: www.freecrm.com
+
+1)  For:
+    <a href="https://www.crmpro.com/features.html">Features</a>
+        xpath: //a[text()='Features']
+        xpath: //a[contains(text(),'Features')]
+
+2)  For:
+    <input type="text" class="form-control" placeholder="Username" name="username">
+        xpath: //input[@name='username']
+        xpath: //input[@name='username' and @type='text']
+
+3)  For:
+    <button type="button" class="btn">Sign Up</button>
+        xpath: //button[@type='button' and @class='btn']
+        xpath: //button[contains(text(),'Sign Up')]
+
+4)  For:
+    selecting/click on checkbox before a text:  |x| test2 test2
+        xpath:  //a[text()='test2 test2']//parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']
+
+
+url: https://getbootstrap.com/docs/4.0/components/dropdowns/
+
+1)  For:
+    <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Dropdown button
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="#">Action</a>
+        <a class="dropdown-item" href="#">Another action</a>
+        <a class="dropdown-item" href="#">Something else here</a>
+      </div>
+    </div>
+
+        xpath: //div[@class='dropdown']//button[@type='button' and @class='btn btn-secondary dropdown-toggle' and @id='dropdownMenuButton']
+        xpath: //button[@id='dropdownMenuButton']
