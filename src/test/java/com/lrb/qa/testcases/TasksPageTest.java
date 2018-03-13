@@ -27,9 +27,10 @@ public class TasksPageTest {
         log.info("In testTasksPage method");
     }
 
-    @Test
-    public void testTasksPageFail() throws Exception {
-        log.info("In testTasksPageFail method");
-        Assert.fail();
-    }
+//    @Test
+//    public void testTasksPageFail() throws Exception {
+//        log.info("In testTasksPageFail method");
+//        Assert.fail();
+//    }
+
 }
